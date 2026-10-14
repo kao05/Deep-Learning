@@ -1,9 +1,13 @@
 # Deep-Learning
+
 this repository is made for University and practiques 
 
-## Todo lo que aprendí de esta materia:
+## Conocimientos Deep Learniong 
 
-### 1.Forward y Backpropagation 
-- Dentro de la práctica 
+### Inicialización de pesos
 
-### 2.
+### Funciones de activación
+
+### Forward and Backpropagation
+
+### Segmentación de datos Train,Dev y Test
