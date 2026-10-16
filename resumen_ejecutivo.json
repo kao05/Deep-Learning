@@ -1,0 +1,48 @@
+{
+  "tabla": [
+    {
+      "Modelo": "Clase mayoritaria",
+      "Accuracy": 0.1977,
+      "Macro-F1": 0.0367,
+      "±1 clase": 0.4392,
+      "CE": 2.1102
+    },
+    {
+      "Modelo": "Random Forest",
+      "Accuracy": 0.4259,
+      "Macro-F1": 0.3979,
+      "±1 clase": 0.8118,
+      "CE": 1.8432
+    },
+    {
+      "Modelo": "HistGradientBoosting",
+      "Accuracy": 0.4202,
+      "Macro-F1": 0.3927,
+      "±1 clase": 0.7966,
+      "CE": 1.7789
+    },
+    {
+      "Modelo": "MLP final (este notebook)",
+      "Accuracy": 0.384,
+      "Macro-F1": 0.3817,
+      "±1 clase": 0.6844,
+      "CE": 1.6001
+    }
+  ],
+  "config_mlp": {
+    "l1": 0.0,
+    "capas": [
+      64,
+      64
+    ],
+    "activacion": "elu",
+    "optimizador": "adam",
+    "learning_rate": 0.0017,
+    "batchnorm": true,
+    "pesos": "suave",
+    "dropout": 0.05,
+    "l2": 1e-05
+  },
+  "escalador": "robust_clip",
+  "semilla": 1969
+}
